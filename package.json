@@ -8,7 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "setup-production": "npm install & npm run build"
+    "setup-production": "npm run install && npm run build"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.2.2",
